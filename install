@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+/usr/bin/env git clone git://github.com/ahjdzx/tmux.git $HOME/.tmux
+cd $HOME/.tmux
+ln -s $HOME/.tmux/tmux.conf $HOME/.tmux.conf
